@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Solution003 {
+public class S003PlusMinus {
 
     static void plusMinus(int[] arr) {
         // Complete this function
