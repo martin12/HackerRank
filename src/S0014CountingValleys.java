@@ -6,7 +6,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class S013CountingValleys {
+public class S0014CountingValleys {
 
     // Complete the countingValleys function below.
     static int countingValleys(int n, String s) {

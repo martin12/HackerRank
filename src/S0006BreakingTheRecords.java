@@ -4,7 +4,7 @@ import java.text.*;
 import java.util.*;
 import java.util.regex.*;
 
-public class S005BreakingTheRecords {
+public class S0006BreakingTheRecords {
 
     /*
      * Complete the breakingRecords function below.

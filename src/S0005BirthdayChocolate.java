@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class S005BirthdayChocolate {
+public class S0005BirthdayChocolate {
 
     static int solve(int n, int[] s, int d, int m){
         // Complete this function

@@ -4,7 +4,7 @@ import java.io.*;
         import java.math.*;
         import java.util.regex.*;
 
-public class S008MigratoryBirds {
+public class S0009MigratoryBirds {
 
     static int migratoryBirds(int n, int[] ar) {
         // Complete this function

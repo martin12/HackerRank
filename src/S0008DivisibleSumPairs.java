@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class S007DivisibleSumPairs {
+public class S0008DivisibleSumPairs {
 
     static int divisibleSumPairs(int n, int k, int[] ar) {
         // Complete this function

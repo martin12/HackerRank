@@ -4,7 +4,7 @@ import java.text.*;
 import java.util.*;
 import java.util.regex.*;
 
-public class S014ElectronicsShop {
+public class S0015ElectronicsShop {
 
 
     /*

@@ -4,7 +4,7 @@ import java.text.*;
 import java.util.*;
 import java.util.regex.*;
 
-public class S001AppleAndOrange {
+public class S0001AppleAndOrange {
 
     /*
      * Complete the countApplesAndOranges function below.

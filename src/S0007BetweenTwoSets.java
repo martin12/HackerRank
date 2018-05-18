@@ -4,7 +4,7 @@ import java.text.*;
 import java.util.*;
 import java.util.regex.*;
 
-public class S006BetweenTwoSets {
+public class S0007BetweenTwoSets {
 
     /*
      * Complete the getTotalX function below.

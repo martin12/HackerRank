@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class S003PlusMinus {
+public class S0003PlusMinus {
 
     static void plusMinus(int[] arr) {
         // Complete this function
@@ -9,18 +9,16 @@ public class S003PlusMinus {
         double negative = 0;
         double zero = 0;
 
-        for(int i = 0; i < size; i++) {
-        int cell = arr[i];
+        for (int i = 0; i < size; i++) {
+            int cell = arr[i];
 
-        if (cell > 0) {
-        positive++;
-        }
-        else if (cell < 0) {
-        negative++;
-        }
-        else {
-        zero++;
-        }
+            if (cell > 0) {
+                positive++;
+            } else if (cell < 0) {
+                negative++;
+            } else {
+                zero++;
+            }
         }
 
         System.out.println(positive / size);
@@ -32,8 +30,8 @@ public class S003PlusMinus {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         int[] arr = new int[n];
-        for(int arr_i = 0; arr_i < n; arr_i++){
-        arr[arr_i] = in.nextInt();
+        for (int arr_i = 0; arr_i < n; arr_i++) {
+            arr[arr_i] = in.nextInt();
         }
         plusMinus(arr);
         in.close();

@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class S011SockMerchant {
+public class S0011SockMerchant {
 
     static int sockMerchant(int n, int[] ar) {
         // Complete this function

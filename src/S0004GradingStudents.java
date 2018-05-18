@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class S004GradingStudents {
+public class S0004GradingStudents {
 
     static int[] solve(int[] grades){
         // Complete this function

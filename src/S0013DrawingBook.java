@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class S012DrawingBook {
+public class S0013DrawingBook {
 
     static int solve(int n, int p){
         // Complete this function

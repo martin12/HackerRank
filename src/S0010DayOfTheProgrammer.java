@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class S009DayOfTheProgrammer {
+public class S0010DayOfTheProgrammer {
 
     static String solve(int year){
         // Complete this function
