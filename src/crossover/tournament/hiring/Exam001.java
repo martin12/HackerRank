@@ -1,9 +1,8 @@
+package crossover.tournament.hiring;
+
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.stream.Collectors;
+import java.sql.SQLException;
+import java.util.*;
 
 public class Exam001 {
     public static void main(String[] args) {
@@ -40,6 +39,84 @@ public class Exam001 {
         System.out.print(obj1.equals(obj2) + " ");
         obj1 = obj2;
         System.out.print(obj1.equals(obj2) + " ");
+
+
+        //new MyClass<Integer>();
+        MyClass<Integer> myObject1 = new MyClass<>("");
+        //MyClass<Integer> myObject2 = new <String> MyClass<>();
+        //MyClass<Integer> myObject3 = new <> MyClass("");
+        new MyClass<Integer>("");
+
+
+        /*
+        try {
+            Scanner in = new Scanner(System.in);
+
+            int n = Integer.parseInt(in.nextLine().trim());
+            String[] a = new String[n];
+            for (int q = 0; q < n; q++) {
+                a[q] = in.nextLine();
+                if ((q % 2) == 0) {
+                    throw new IOException("hola");
+                }
+                else {
+                    throw new SQLException("mundo");
+                }
+            }
+        }
+        catch (IOException | SQLException ex) {
+
+        }
+        */
+
+        Exam001 exam001 = new Exam001();
+        System.out.println();
+        System.out.println(exam001.getSeasonUsingSwitchStatement("January"));
+
+        final Collection<? extends Number> foo = new ArrayList<Number>();
+
+        //foo.add(new Integer(4));
+        //foo.add(new Object());
+        foo.add(null);
+        //foo = null;
+
+        System.out.println();
+        long initial = System.currentTimeMillis();
+        String s = "";
+        for (int i2 = 0; i2 < 1000; i2++) {
+            s += String.valueOf(i2);
+        }
+        long end = System.currentTimeMillis();
+        System.out.println(end-initial);
+    }
+
+    public String getSeasonUsingSwitchStatement(String seasonOfYearArg) {
+        String nameOfSeason;
+        switch (seasonOfYearArg) {
+            case "March":
+            case "April":
+            case "May":
+                nameOfSeason = "Spring";
+                break;
+            case "June":
+            case "July":
+            case "August":
+                nameOfSeason = "Summer";
+                break;
+            case "September":
+            case "October":
+            case "November":
+                nameOfSeason = "Fall";
+                break;
+            case "December":
+            case "January":
+            case "February":
+                nameOfSeason = "Winter";
+                break;
+            default:
+                    throw new IllegalArgumentException("Invalid month for season of the year: " + seasonOfYearArg);
+        }
+        return nameOfSeason;
     }
 }
 

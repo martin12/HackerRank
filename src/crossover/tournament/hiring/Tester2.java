@@ -1,3 +1,5 @@
+package crossover.tournament.hiring;
+
 import java.io.*;
 import java.util.*;
 import java.text.*;

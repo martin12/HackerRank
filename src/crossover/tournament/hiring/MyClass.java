@@ -1,4 +1,7 @@
 package crossover.tournament.hiring;
 
-public class MyClass {
+public class MyClass<A> {
+    <B> MyClass(B b) {
+
+    }
 }
