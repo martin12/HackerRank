@@ -10,17 +10,17 @@ public class S003PlusMinus {
         double zero = 0;
 
         for(int i = 0; i < size; i++) {
-            int cell = arr[i];
+        int cell = arr[i];
 
-            if (cell > 0) {
-                positive++;
-            }
-            else if (cell < 0) {
-                negative++;
-            }
-            else {
-                zero++;
-            }
+        if (cell > 0) {
+        positive++;
+        }
+        else if (cell < 0) {
+        negative++;
+        }
+        else {
+        zero++;
+        }
         }
 
         System.out.println(positive / size);
@@ -33,7 +33,7 @@ public class S003PlusMinus {
         int n = in.nextInt();
         int[] arr = new int[n];
         for(int arr_i = 0; arr_i < n; arr_i++){
-            arr[arr_i] = in.nextInt();
+        arr[arr_i] = in.nextInt();
         }
         plusMinus(arr);
         in.close();
